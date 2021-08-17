@@ -9,10 +9,14 @@ puts "----------"
 
 # Your code goes here ...
 
-Store.sum(:annual_revenue)
-Store.average(:annual_revenue)
+s = Store.sum(:annual_revenue)
+puts s
+a = Store.average(:annual_revenue)
+puts a
+puts Store.where('annual_revenue >= 1000000').count
 
-
+# puts s
+# puts a
 
 # Person.sum(:age)
 # Person.average(:age)
