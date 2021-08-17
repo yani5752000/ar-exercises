@@ -8,3 +8,11 @@ puts "Exercise 5"
 puts "----------"
 
 # Your code goes here ...
+
+Store.sum(:annual_revenue)
+Store.average(:annual_revenue)
+
+
+
+# Person.sum(:age)
+# Person.average(:age)
